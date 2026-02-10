@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    background-color: #1a1a1a;
+    border-top: 5px solid #36bbce;
+    border-bottom: 5px solid #36bbce;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0 auto 40px auto;
+    gap: 20px;
+}
+
+article {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    width: 400px;
+    margin: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #36bbce;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-top: 3px solid #36bbce;
+}
+
+footer a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #36bbce;
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+<html>
+    <head>
+        <title>BitMarket</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="https://learn.algoritmika.org/uploads/2021/02/logo_0_1613588860.svg">
+            <a class="button" href="">Скидки</a>
+        </header>
+        <nav>
+            <a class="nav-link" href="">Каталог</a>
+            <a class="nav-link" href="">Оптом</a>
+            <a class="nav-link" href="">Доставка</a>
+            <a class="nav-link" href="">Возврат товара</a>
+        </nav>
+        <main>
+            <h1>Профессионалы советуют</h1>
+            <section class="info">
+                <article>
+                    <h2>Лэптоп для отдыха</h2>
+                    <img src="https://learn.algoritmika.org/uploads/2021/02/notebook-405755_1920_0_1613586011.jpg" width="400px" height="300px"/>
+                    <p>Samsung V145-S</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+                <article>
+                    <h2>Как выбрать наушники</h2>
+                    <img src="https://learn.algoritmika.org/uploads/2021/02/music-1813100_1280_0_1613586010.png" width="330px" height="300px"/>
+                    <p>Поговорим о новинках</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+                <article>
+                    <h2>Телефон мечты</h2>
+                    <img src="https://learn.algoritmika.org/uploads/2021/02/mobile-phone-1875813_1920_0_1613586011.jpg" width="400px" height="300px"/>
+                    <p>Apple iphone 13</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+                <article>
+                    <h2>Техника для всего</h2>
+                    <img src="https://learn.algoritmika.org/uploads/2021/02/laptop-1483974_1920_0_1613586010.jpg" width="400px" height="300px"/>
+                    <p>И целого мира мало...</p>
+                    <a class="article-but" href="">Подробнее</a>
+                </article>
+            </section>
+            <img src="https://learn.algoritmika.org/uploads/2021/02/mobile-phone-1419275_1920_0_1613586010.jpg" width="960" height="270"/>
+        </main>
+        <footer>
+            <a href=""><img src="https://learn.algoritmika.org/uploads/2021/02/Group%201_0_1613586391.png" width="80px" height="80px"></a>
+            <p><b>Напиши — получи<br/> промокод!</b></p> 
+        </footer>
+    </body>
+</html>
